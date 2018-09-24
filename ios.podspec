@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'ios'
-    s.version           = '0.0.2'
+    s.version           = '0.0.5'
     s.summary           = 'A really cool SDK that generates money by showing ads that people love.'
     s.homepage          = 'http://example.com/'
 
