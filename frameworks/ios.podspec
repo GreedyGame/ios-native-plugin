@@ -8,7 +8,6 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'Apache-2.0', :file => 'LICENSE' }
 
     s.platform          = :ios
-    s.source            = { :https => 'https://drive.google.com/open?id=1YGj7aJ3Y1UxmolwJmrywGGJLOdIYzVN0' }
 
     s.ios.deployment_target = '8.0'
     s.ios.vendored_frameworks = 'ios.framework'
