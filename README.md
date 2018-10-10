@@ -14,7 +14,7 @@
   - Xcode 9.0+
 
 # Installation
-   To integrate GreedyGame into your Xcode project using CocoaPods, specify it in your Podfile:
+   To integrate GreedyGame framework into your Xcode project using CocoaPods, specify it in your Podfile:
 
 
     platform :ios, '9.0'
