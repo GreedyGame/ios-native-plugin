@@ -33,7 +33,7 @@
 Don't forget to add the below RunScript in "Build Phases" before push the game to AppStore.Because we have added the simulator architecture inside the framework in order to test with simualtor.
  
  
-   *Select your Target -> Build Phases -> click '+' icon at the top left corner ->  Select Run Script and copy and paste the below runscript.* 
+   *Select your Target -> Build Phases -> click '+' icon at the top left corner ->  Select Run Script then copy and paste the below runscript.*
  	
  
     echo "Target architectures: $ARCHS"
