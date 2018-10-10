@@ -196,6 +196,7 @@ SWIFT_CLASS("_TtC7commons14LocationHelper")
 @class CLLocation;
 
 @interface LocationHelper (SWIFT_EXTENSION(commons)) <CLLocationManagerDelegate>
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
 @end
