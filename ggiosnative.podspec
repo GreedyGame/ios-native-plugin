@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name               	  = 'ggiosnative'
-  s.version          	  = '2.0.0'
+  s.version          	  = '1.0.0'
   s.summary          	  = 'This pod will help you in generating more ad revenue by adding greedygame native ios plugin'
   s.swift_version    	  = '4.1'
   s.description    	  = 'A native ios swift library for integrating greedygame ads to your apps. For more info visit'

@@ -187,7 +187,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_PROTOCOL("_TtP10greedygame21CampaignStateListener_")
 @protocol CampaignStateListener
 - (void)onAvailableWithCampaignId:(NSString * _Nonnull)campaignId;
-- (void)onUnavailableWithReason:(NSString * _Nonnull)reason;
+- (void)onUnavailable;
 - (void)onErrorWithError:(NSString * _Nonnull)error;
 @end
 
@@ -254,7 +254,7 @@ SWIFT_PROTOCOL("_TtP10greedygame23FloatRatingViewDelegate_")
 SWIFT_CLASS("_TtC10greedygame15GreedyGameAgent")
 @interface GreedyGameAgent : NSObject
 - (void)setPrivacyOptionsWithPrivacyOpt:(PrivacyOptions * _Nonnull)privacyOpt;
-- (void)initWithGameId:(NSString * _Nonnull)gameId SWIFT_METHOD_FAMILY(none);
+- (void)initialize;
 - (NSString * _Nullable)getPathWithUnitId:(NSString * _Nonnull)unitId SWIFT_WARN_UNUSED_RESULT;
 - (void)showUIIWithUnitId:(NSString * _Nonnull)unitId;
 - (void)refresh;
@@ -271,13 +271,14 @@ SWIFT_CLASS("_TtCC10greedygame15GreedyGameAgent7Builder")
 @interface Builder : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (Builder * _Nonnull)enableAdmob:(BOOL)value;
+- (Builder * _Nonnull)setGameId:(NSString * _Nonnull)gameId;
 - (Builder * _Nonnull)addUnit:(NSString * _Nonnull)unit;
 - (Builder * _Nonnull)stateListener:(id <CampaignStateListener> _Nonnull)stateListener;
 - (Builder * _Nonnull)setUnitsWithUnits:(NSArray<NSString *> * _Nullable)units;
 - (Builder * _Nonnull)bdLogsEnabledWithIsEnabled:(BOOL)isEnabled;
 - (Builder * _Nonnull)setCOPPAFilter:(BOOL)value;
-- (Builder * _Nonnull)setEngineVersion:(NSString * _Nonnull)engVer SWIFT_WARN_UNUSED_RESULT;
-- (Builder * _Nonnull)setEngineName:(NSString * _Nonnull)engName SWIFT_WARN_UNUSED_RESULT;
+- (Builder * _Nonnull)setEngineVersion:(NSString * _Nonnull)engVer;
+- (Builder * _Nonnull)setEngineName:(NSString * _Nonnull)engName;
 - (GreedyGameAgent * _Nonnull)build SWIFT_WARN_UNUSED_RESULT;
 @end
 
