@@ -18,11 +18,11 @@
 
 
     platform :ios, '9.0'
-  	source 'https://github.com/GreedyGame/greedygame-cocoapod.git'    
+  	source 'https://github.com/GreedyGame/cocoapod-folio.git'   
     use_frameworks!
 
 	target <Your Target Name> do
-	pod 'ggiosnative','~> 3.0.0'
+	pod ‘GreedyGameSDK’, ‘~>1.0.0’
 	end
     
   Then, run the following command:
