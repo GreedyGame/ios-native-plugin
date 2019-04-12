@@ -10,8 +10,8 @@
 # Requirements
 
   - ios 8.0+
-  - Swift 3.3+
-  - Xcode 9.0+
+  - Swift 4+
+  - Xcode 10.0+
 
 # Installation
    To integrate GreedyGame framework into your Xcode project using CocoaPods, specify it in your Podfile:
@@ -22,8 +22,11 @@
     use_frameworks!
 
 	target <Your Target Name> do
-	pod ‘GreedyGameSDK’, ‘~>1.0.0’
+	   pod ‘GreedyGameSDK’, ‘0.2.0.0.1’
 	end
+	
+   If you are building with XCode 10.2 use `pod ‘GreedyGameSDK’, ‘0.2.0.0.1`	
+	
     
   Then, run the following command:
 
