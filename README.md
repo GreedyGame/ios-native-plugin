@@ -25,10 +25,9 @@
 	    pod ‘GreedyGameSDK’, ‘0.2.0.0.1’
 	end
     
-    
-    
-    If you are building with XCode 10.2 -> ` pod ‘GreedyGameSDK’, ‘0.2.0.0.2’ `
-    
+ 
+  If you are building with XCode 10.2 -> ` pod ‘GreedyGameSDK’, ‘0.2.0.0.2’ `
+ 
   Then, run the following command:
 
 	$ pod install
