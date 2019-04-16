@@ -10,8 +10,8 @@
 # Requirements
 
   - ios 8.0+
-  - Swift 3.3+
-  - Xcode 9.0+
+  - Swift 4+
+  - Xcode 10+
 
 # Installation
    To integrate GreedyGame framework into your Xcode project using CocoaPods, specify it in your Podfile:
@@ -22,9 +22,12 @@
     use_frameworks!
 
 	target <Your Target Name> do
-	pod ‘GreedyGameSDK’, ‘~>1.0.0’
+	    pod ‘GreedyGameSDK’, ‘0.2.0.0.1’
 	end
     
+ 
+  If you are building with XCode 10.2 -> ` pod ‘GreedyGameSDK’, ‘0.2.0.0.2’ `
+ 
   Then, run the following command:
 
 	$ pod install
@@ -33,7 +36,7 @@
 Don't forget to add the below RunScript in "Build Phases" before push the game to AppStore.Because we have added the simulator architecture inside the framework in order to test with simualtor.
  
  
-   *Select your Target -> Build Phases -> click '+' icon at the top left corner ->  Select Run Script then copy and paste the below runscript.*
+   *Select your Target -> `Build Phases` -> click `+` icon at the top left corner ->  Select `Run Script` then copy and paste the below runscript.*
  	
  
     echo "Target architectures: $ARCHS"
