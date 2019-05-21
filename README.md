@@ -22,7 +22,7 @@
     use_frameworks!
 
 	target <Your Target Name> do
-	pod ‘GreedyGameSDK’, ‘~>1.0.0’
+	pod ‘GreedyGameSDK’, ‘1.0.3’
 	end
     
   Then, run the following command:
