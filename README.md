@@ -1,6 +1,8 @@
 
 
-![GreedyGame](https://github.com/GreedyGame/ios-native-plugin/blob/master/Logo/gg_logo2x.png)
+<p align="center">
+  <img width="210" height="60" src="https://github.com/GreedyGame/ios-native-plugin/blob/master/Logo/gg_logo2x.png">
+</p>
 
 # GreedyGame
 
