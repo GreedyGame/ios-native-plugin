@@ -6,7 +6,7 @@
 
 # GreedyGame
 
-GreedyGame Framework helps you to monetise apps or games through ads which are not intrusive and loved by people.*
+GreedyGame Framework helps you to monetise apps or games through ads which are not intrusive and loved by people.
 
 
 # Requirements
@@ -17,7 +17,8 @@ GreedyGame Framework helps you to monetise apps or games through ads which are n
 
 # Installation
 
-#CocoaPod
+# CocoaPod
+
    To integrate GreedyGame framework into your Xcode project using CocoaPods, specify it in your Podfile:
 
     platform :ios, '9.0'
@@ -31,6 +32,7 @@ GreedyGame Framework helps you to monetise apps or games through ads which are n
   Then, run the following command:
 
 	$ pod install
+	
  # Manual
    To integrate GreedyGame framework into your Xcode project manually
    <a target="_blank" rel="noopener noreferrer" href="https://github.com/GreedyGame/ios-native-plugin/archive/1.0.5.zip" class="pure-material-button-contained">Download SDK For XCode 10 and 10.1</a>
