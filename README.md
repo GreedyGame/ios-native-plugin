@@ -29,7 +29,10 @@
   Then, run the following command:
 
 	$ pod install
-    
+ # Manual
+   To integrate GreedyGame framework into your Xcode project manually
+   <a target="_blank" rel="noopener noreferrer" href="https://github.com/GreedyGame/ios-native-plugin/archive/1.0.5.zip" class="pure-material-button-contained">Download SDK For XCode 10 and 10.1</a>
+
  # *Note
 Don't forget to add the below RunScript in "Build Phases" before push the game to AppStore.Because we have added the simulator architecture inside the framework in order to test with simualtor.
  
