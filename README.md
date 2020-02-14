@@ -6,7 +6,7 @@
 
 # GreedyGame
 
-*GreedyGame Framework helps you to monetise apps or games through ads which are not intrusive and loved by people.*
+GreedyGame Framework helps you to monetise apps or games through ads which are not intrusive and loved by people.*
 
 
 # Requirements
@@ -16,6 +16,8 @@
   - Xcode 10+
 
 # Installation
+
+#CocoaPod
    To integrate GreedyGame framework into your Xcode project using CocoaPods, specify it in your Podfile:
 
     platform :ios, '9.0'
@@ -34,7 +36,7 @@
    <a target="_blank" rel="noopener noreferrer" href="https://github.com/GreedyGame/ios-native-plugin/archive/1.0.5.zip" class="pure-material-button-contained">Download SDK For XCode 10 and 10.1</a>
 
  # *Note
-Don't forget to add the below RunScript in "Build Phases" before push the game to AppStore.Because we have added the simulator architecture inside the framework in order to test with simualtor.
+ Don't forget to add the below RunScript in "Build Phases" before push the game to AppStore.Because we have added the simulator architecture inside the framework in order to test with simualtor.
  
  
    *Select your Target -> Build Phases -> click '+' icon at the top left corner ->  Select Run Script then copy and paste the below runscript.*
